@@ -8,7 +8,7 @@ namespace Mango.Services.ProductAPI
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            //Teste
             // Add services to the container.
 
             builder.Services.AddDbContext<ApplicationDbContext>(options=>options.UseSqlServer("DefaultConnection"));
